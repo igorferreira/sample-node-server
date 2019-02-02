@@ -9,7 +9,7 @@ resources:
   disk_size_gb: 10
 
 steps:
-- name: 'gcr.io/cloud-builders/gcloud'
-  args: ['app', 'deploy']
-  
-timeout: '1600s'
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['app', 'deploy']
+    timeout: '1600s'
+
