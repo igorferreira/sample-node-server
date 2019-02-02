@@ -1,0 +1,24 @@
+{
+  "name": "webserver_lab",
+  "version": "1.0.0",
+  "description": "Introduction ============ This is the source code of the portfolio which we've built in our \"Write Your First Web Server\" Tutorial on YouTube.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://source.developers.google.com/p/estudo-gcloud/r/sample-node-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://source.developers.google.com/p/estudo-gcloud/r/sample-node-server/issues"
+  },
+  "homepage": "https://source.developers.google.com/p/estudo-gcloud/r/sample-node-server#readme"
+}
