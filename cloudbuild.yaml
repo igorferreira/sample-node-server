@@ -6,4 +6,4 @@ steps:
     args: [ 'run', 'build', '--prod', '--build-optimizer' ]
 
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['app', 'deploy', '-v=v1.0']
+    args: ['app', 'deploy']
