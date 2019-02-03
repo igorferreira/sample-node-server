@@ -11,7 +11,7 @@ steps:
     args: ['push', 'gcr.io/niteroionline/home-niteroionline']
     timeout: 500s
 
-  - id: Google Cloud deploy
-    name: 'gcr.io/cloud-builders/gcloud'
-    args: ['app', 'deploy']
-    timeout: 500s
+#  - id: Google Cloud deploy
+#    name: 'gcr.io/cloud-builders/gcloud'
+#    args: ['app', 'deploy']
+#    timeout: 500s
