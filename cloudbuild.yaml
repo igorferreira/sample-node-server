@@ -2,6 +2,7 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/niteroionline/home-niteroionline', '.']
   timeout: 500s
+  images: ['gcr.io/niteroionline/home-niteroionline']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/niteroionline/home-niteroionline']
 - name: 'gcr.io/cloud-builders/gcloud'
