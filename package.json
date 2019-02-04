@@ -4,7 +4,8 @@
   "description": "Introduction ============ This is the source code of the portfolio which we've built in our \"Write Your First Web Server\" Tutorial on YouTube.",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "yarn": "^1.13.0"
   },
   "devDependencies": {},
   "scripts": {

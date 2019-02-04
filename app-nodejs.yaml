@@ -1,0 +1,14 @@
+# ERROR: (gcloud.app.deploy) There is a Dockerfile in the current directory, and the runtime field in /home/igorferreira/works/novedade/niteroionline/home/app.yaml 
+# is currently set to [runtime: nodejs]. 
+# To use your Dockerfile to build a custom runtime, set the runtime field to [runtime: custom]. 
+# To continue using the [nodejs] runtime, please remove the Dockerfile from this directory.
+# 
+runtime: nodejs
+env: flex
+
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
